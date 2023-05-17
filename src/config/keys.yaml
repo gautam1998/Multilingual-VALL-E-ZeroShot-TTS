@@ -1,0 +1,6 @@
+AZURE_GPT:
+  API_Key: 16f4d606a97b438e8b9f127fcad2f810
+  API_Base: https://homedepot123.openai.azure.com/
+  API_Type: azure
+  API_Version: 2022-12-01
+  Deployment_Name: gpt35

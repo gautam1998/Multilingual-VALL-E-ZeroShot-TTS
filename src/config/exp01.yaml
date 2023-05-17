@@ -1,0 +1,46 @@
+bert:
+  adam_beta1: 0.9
+  adam_beta2: 0.999
+  auto_find_batch_size: true
+  evaluation_strategy: epoch
+  gradient_accumulation_steps: 8
+  hidden_size: 768
+  hub_model_id: gaushh/optimized-bert
+  hub_private_repo: true
+  hub_strategy: checkpoint
+  hub_token: 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
+  learning_rate: 0.0001
+  logging_steps: 100
+  lr_scheduler_type: linear
+  mlm_probability: 0.15
+  model_path: ../../models/exp01
+  num_train_epochs: 15
+  push_to_hub: false
+  save_steps: 5000
+  save_strategy: epoch
+  warmup_ratio: 0.01
+  weight_decay: 0.01
+dataset:
+  data_proportion: 0.05
+  processed_test_dir: ../../data/processed/processed_test
+  processed_train_dir: ../../data/processed/processed_train
+  raw_dataset_dir: ../../data/raw/raw_dataset
+  raw_test_path: ../../data/raw/test.txt
+  raw_train_path: ../../data/raw/train.txt
+  test_size: 0.05
+seed: 43
+tokenizer:
+  files:
+  - ../../data/raw/test.txt
+  max_length: 512
+  special_tokens:
+  - '[PAD]'
+  - '[UNK]'
+  - '[CLS]'
+  - '[SEP]'
+  - '[MASK]'
+  - <S>
+  - <T>
+  tokenizer_path: ../../models/tokenizer
+  truncate_longer_samples: false
+  vocab_size: 30522

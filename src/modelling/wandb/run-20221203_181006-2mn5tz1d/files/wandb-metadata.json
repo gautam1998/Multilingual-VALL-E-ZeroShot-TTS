@@ -1,0 +1,42 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.9.12",
+    "heartbeatAt": "2022-12-04T00:10:07.845134",
+    "startedAt": "2022-12-04T00:10:06.789752",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/gauravsharma/PycharmProjects/optimized-bert/src/modelling/train_bert.py",
+    "codePath": "src/modelling/train_bert.py",
+    "git": {
+        "remote": "https://github.com/gaushh/optimized-bert.git",
+        "commit": "3b86f70601ca83dc185a6234f9ae6c807033a1af"
+    },
+    "email": "gsharma14497@gmail.com",
+    "root": "/Users/gauravsharma/PycharmProjects/optimized-bert",
+    "host": "dhcp-10-105-252-161.wireless.northwestern.private",
+    "username": "gauravsharma",
+    "executable": "/Users/gauravsharma/opt/anaconda3/bin/python",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2400,
+        "min": 2400,
+        "max": 2400
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2400,
+            "min": 2400,
+            "max": 2400
+        }
+    ],
+    "disk": {
+        "total": 460.4317207336426,
+        "used": 139.89115142822266
+    },
+    "memory": {
+        "total": 16.0
+    }
+}
