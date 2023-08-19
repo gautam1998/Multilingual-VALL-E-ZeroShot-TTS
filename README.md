@@ -141,7 +141,7 @@ The average cosine similarity score for each of the ten languages is 0.8 or high
 We can see that for most of the languages, the word error rate was comparable to English, in fact, it was even lower for Spanish and Portuguese. These results indicate that QuickVC is able to preserve the content of different languages after voice conversion despite not being trained on any of those languages.
 
 ## <b>Demo</b>
-Demo available [here](https://multitude00999.github.io/GDM_final_project/) 
+Demo available [here](https://multitude00999.github.io/GDM_final_project/#demo) 
     
 
 
